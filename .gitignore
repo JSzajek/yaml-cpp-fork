@@ -1,3 +1,12 @@
 build/
 /tags
 /bazel-*
+
+.vs/
+.git/
+bin/
+bin-int/
+
+# Visual studio files
+*.vcxproj
+*.filters
