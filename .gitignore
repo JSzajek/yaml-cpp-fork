@@ -1,10 +1,28 @@
-build/
-/tags
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-.vs/
-.git/
-bin/
-bin-int/
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
 
 # Visual studio files
 *.vcxproj
@@ -12,3 +30,12 @@ bin-int/
 *.vcxproj.user
 *.vcxproj.filters
 *.sln
+
+.vs/
+.git/
+JSON/
+Binaries/*
+Intermediates/*
+
+build/
+/tags

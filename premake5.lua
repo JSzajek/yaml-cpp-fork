@@ -4,8 +4,8 @@ project "yaml-cpp"
 
 	staticruntime "on"
 
-	targetdir ("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")
-	objdir ("%{wks.location}/bin-int/" .. outputdir .. "/%{prj.name}")
+	targetdir ("%{wks.location}/Binaries/" .. outputdir .. "/%{prj.name}")
+	objdir ("%{wks.location}/Intermediates/" .. outputdir .. "/%{prj.name}")
 
 	files
 	{
